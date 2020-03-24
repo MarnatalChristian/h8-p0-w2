@@ -1,0 +1,93 @@
+"NEWTON SECOND LAW"
+============
+Algoritma
+1. Simpan "massaBenda" dengan nilai 200
+2. Simpan "percepatanBenda" dengan nilai 2
+3. Simpan "resultanGaya" tanpa diberikan nilai. 
+4. Hitung perkalian "massaBenda" dengan "percepatanBenda"
+5. Hasil hitung perkalian dimasukaan kedalam nilai "resultanGaya"
+6. Tampilkan nilai dari "resultanGaya"
+
+Pseudocode
+STORE "massaBenda" with 200
+STORE "percepatanBenda" with 2
+STORE "resultanGaya" without any value
+
+CALCULATE "massaBenda" times "percepatanBenda
+SET resultanGaya value with calculation result
+
+DISPLAY "resultanGaya"
+
+
+"TAHUN KABISAT"
+===============
+Algoritma
+1. Simpan "tahun" dengan nilai berapapun
+2. Jika "tahun" habis dibagi 400 tampilkan "Tahun Kabisat"
+3. Jika "tahun" habis dibagi 4 dan "tahun" tidak habis dibagi 100, tampilkan "Tahun Kabisat"
+4. Jika "tahun" habis dibagi 4 dan "tahun" habis dibagi 100 dan "tahun" habis dibagi 400, Tampilkan "Tahun Kabisat"
+5. Selain itu tampilkan "Bukan Tahun Kabisat"
+
+Pseudocode
+START
+STORE "tahun" with any value
+
+IF "tahun" mod 400 is 0
+DISPLAY "Tahun Kabisat"
+IF ("tahun" mod 4 is 0) AND ("tahun" mod 100 is not 0)
+DISPLAY "Tahun Kabisat"
+IF ("tahun" mod 4 is 0) AND ("tahun" mod 100 is 0) AND ("tahun" mod 400 is 0)
+DISPLAY "Tahun Kabisat"
+ELSE
+DISPLAY "Bukan Tahun Kabisat"
+END
+
+
+"LAUNDRY DAY"
+=============
+Algoritma
+1. Simpan "pakaian" dengan nilai 0
+2. Selama "pakaian" bernilai dibawah 20 ulangi step 3
+3. Tambah "pakaian" dengan nilai 1
+4. Bila pakaian sudah bernilai 20, mesin cuci dinyalakan
+
+Pseudocode
+START
+STORE "pakaian" with 0
+
+WHILE "pakaian" less than 20
+ADD "pakaian" by 1
+
+DO "Mesin cuci dinyalakan!"
+END
+
+
+"PERIKSA KUKU"
+==============
+Algoritma
+1. Simpan "murid dengan nilai 0
+2. Selama "murid" belum mencapai 40, ulangi step 5
+3. Jika "murid" dengan kuku panjang, siswa/siswi dihukum
+4. Selain itu siswa/siswi di puji
+5. Tambahkan "murid" dengan nilai 1
+
+Pseudocode
+START
+STORE "murid" with 0
+
+WHILE "murid" less than 40
+
+IF "siswa" equals to "Kuku Panjang"
+DO "Hukum siswa/siswi"
+
+ELSE
+DO "Memuji siswa/siswi"
+
+ADD "siswa" by 1
+END
+
+
+
+
+
+
